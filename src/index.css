@@ -75,6 +75,7 @@ img {
 	object-fit: cover;
 }
 
+/* BUTTONS */
 .btn {
 	width: fit-content;
 	color: var(--color-gray-100);
@@ -103,4 +104,65 @@ img {
 
 .btn.sm:hover {
 	background: var(--color-gray-100);
+}
+
+/* SECTION */
+section {
+	margin-top: 10rem;
+}
+
+.section__head {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.section__head span {
+	background-color: var(--color-gray-500);
+	color: var(--color-secondary);
+	padding: 0.3rem 0.8rem;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+
+/* CARD */
+
+.card {
+	background: var(--color-gray-500);
+	padding: 3rem 2rem;
+	border: 2px solid transparent;
+	border-radius: 0 3rem 0 3rem;
+	text-align: center;
+	transition: var(--transition);
+}
+
+.card:hover {
+	background: transparent;
+	border-color: var(--color-gray-400);
+	cursor: default;
+}
+
+.card span {
+	width: 3rem;
+	height: 3rem;
+	font-size: 1, 5rem;
+	padding: 0.8rem;
+	background-color: var(--color-primary);
+	color: var(--color-gray-100);
+	display: grid;
+	place-items: center;
+	margin: 0 auto 1.5rem auto;
+	border-radius: 1rem;
+	transition: var(--transition);
+}
+
+.card:hover span {
+	background-color: var(--color-secondary);
+	color: var(--color-gray-500);
+}
+
+.card small {
+	display: block;
+	margin-top: 1rem;
+	font-weight: 300;
 }
