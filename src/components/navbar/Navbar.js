@@ -11,7 +11,7 @@ const Navbar = () => {
 	return (
 		<nav>
 			<div className="container nav__container">
-				<Link to="/">
+				<Link to="/" onClick={() => setIsNavShowing(false)}>
 					<img src={logo} alt="Nav Link" className="logo" />
 				</Link>
 				<ul
@@ -19,7 +19,7 @@ const Navbar = () => {
 				>
 					{links.map(({ name, path }, index) => {
 						return (
-							<li key={index}>
+							<li key={index} onClick={() => setIsNavShowing((prev) => !prev)}>
 								<NavLink
 									to={path}
 									className={({ isActive }) =>
