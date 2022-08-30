@@ -1,7 +1,12 @@
 import "./Home.css";
+import MainHeader from "../../components/MainHeader";
 
 const Home = () => {
-	return <div>Home</div>;
+	return (
+		<div>
+			<MainHeader />
+		</div>
+	);
 };
 
 export default Home;
