@@ -52,7 +52,7 @@
 	filter: blur(15px);
 }
 
-/* PROGRAMS */
+/* ==================== PROGRAMS =================== */
 .programs {
 	margin-top: 4rem;
 }
@@ -75,4 +75,41 @@
 .programs__program:hover a {
 	background-color: var(--color-secondary);
 	color: var(--color-gray-600);
+}
+
+/* ==================== VALUES =================== */
+.values__container {
+	display: grid;
+	grid-template-columns: 38% 50%;
+	gap: 12%;
+}
+
+.values__image {
+	filter: saturate(25%);
+	transition: var(--transition);
+}
+
+.values__image:hover {
+	filter: saturate(100%);
+}
+
+.values__right p {
+	margin: 1.5rem 0 3.5rem;
+}
+
+.values__wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3.4rem 2.4rem;
+}
+
+.card.values__value {
+	position: relative;
+	padding-top: 3rem;
+	text-align: left;
+}
+
+.card.values__value span {
+	position: absolute;
+	top: -1.5rem;
 }
