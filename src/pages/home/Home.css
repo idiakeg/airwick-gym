@@ -146,3 +146,68 @@
 .faq p {
 	margin-top: 1.5rem;
 }
+
+/* ==================== TESTIMONIALS =================== */
+.testimonials {
+	width: 50rem;
+	margin-inline: auto;
+}
+
+.testimonials__head {
+	justify-content: center;
+}
+
+.testimonial {
+	margin-top: 4rem;
+	position: relative;
+	text-align: left;
+}
+
+.testimonial__avatar {
+	position: absolute;
+	top: -2.5rem;
+	left: calc(50% - 2.5rem);
+	width: 5rem;
+	height: 5rem;
+	overflow: hidden;
+	border: 2px solid transparent;
+	border-radius: 1.5rem;
+	transition: var(--transition);
+	box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+}
+
+.testimonial:hover .testimonial__avatar {
+	border-radius: 50%;
+	border-color: var(--color-gray-400);
+}
+
+.testimonial__quote {
+	font-style: italic;
+	margin: 1rem 0 2rem;
+}
+
+.testimonial__title {
+	margin-top: 0.3rem;
+}
+
+.testimonials__btn-container {
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 2.5rem auto 0;
+}
+
+.testimonials__btn {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.testimonials__btn svg {
+	fill: var(--color-primary);
+	font-size: 2rem;
+	width: 3rem;
+	height: 3rem;
+}
