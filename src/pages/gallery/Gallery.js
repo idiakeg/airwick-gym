@@ -9,8 +9,6 @@ const Gallery = () => {
 		images.push(require(`../../images/gallery${i}.jpg`));
 	}
 
-	console.log(images);
-
 	return (
 		<>
 			<Header image={HeaderImage} title="Gallery">
