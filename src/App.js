@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 			<Footer />
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
