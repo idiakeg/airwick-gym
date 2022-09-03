@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/airwick-gym/static/css/main.c79e0bba.css",
+    "main.css": "/airwick-gym/static/css/main.0250e56e.css",
     "main.js": "/airwick-gym/static/js/main.556e2e4e.js",
     "static/media/header_bg_3.jpg": "/airwick-gym/static/media/header_bg_3.20aac8db63049715cbd1.jpg",
     "static/media/main_header.png": "/airwick-gym/static/media/main_header.cfdd71eb8ee4127d40dd.png",
@@ -35,11 +35,11 @@
     "static/media/trainer6.jpg": "/airwick-gym/static/media/trainer6.d060ff98bdc67ac8ddf3.jpg",
     "static/media/avatar5.jpg": "/airwick-gym/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
     "index.html": "/airwick-gym/index.html",
-    "main.c79e0bba.css.map": "/airwick-gym/static/css/main.c79e0bba.css.map",
+    "main.0250e56e.css.map": "/airwick-gym/static/css/main.0250e56e.css.map",
     "main.556e2e4e.js.map": "/airwick-gym/static/js/main.556e2e4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c79e0bba.css",
+    "static/css/main.0250e56e.css",
     "static/js/main.556e2e4e.js"
   ]
 }
