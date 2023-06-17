@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## Click [here](https://idiakeg.github.io/airwick-gym/) for live demo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
